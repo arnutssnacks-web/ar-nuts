@@ -1,0 +1,54 @@
+{
+  "kind": "build_request",
+  "title": "Update contact information with new mobile number and email",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-17",
+      "text": "Update the footer contact information to display mobile number as '9345285169' and email as 'arnutssnacks@gmail.com'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "can you change my mobile number 9345285169\nand gmail arnutssnacks@gmail.com"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer component displays '9345285169' as the contact phone number",
+        "Footer component displays 'arnutssnacks@gmail.com' as the contact email",
+        "Email link uses 'mailto:arnutssnacks@gmail.com'",
+        "Phone number is properly formatted and clickable if applicable"
+      ]
+    },
+    {
+      "id": "REQ-18",
+      "text": "Update the WhatsApp order button to use phone number '9345285169' for WhatsApp integration",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "can you change my mobile number 9345285169"
+        ]
+      },
+      "acceptanceCriteria": [
+        "WhatsApp button generates correct WhatsApp URL with phone number 9345285169",
+        "WhatsApp link opens chat with the updated number when clicked",
+        "Pre-filled cart message format remains intact"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "Modifying backend data structures",
+    "Changing checkout form validation",
+    "Updating authentication logic"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

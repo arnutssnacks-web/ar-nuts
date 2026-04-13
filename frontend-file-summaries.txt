@@ -1,0 +1,21 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, defining all routes (home, products, cart, wishlist, checkout) with a shared layout including header and footer.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for managing all backend interactions including products, cart, wishlist, and reviews with proper loading states and cache invalidation.",
+  "frontend/src/components/Header.tsx": "Sticky header component with AR NUTS branding, search bar, cart icon with item count badge, and wishlist icon with count badge.",
+  "frontend/src/components/Footer.tsx": "Footer component with brand info, updated contact details (phone: 9345285169, email: arnutssnacks@gmail.com), Instagram link, policy links, and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/components/HeroBanner.tsx": "Hero banner section displaying promotional text \"Healthy Snacks, Premium Quality\" with background image and call-to-action button.",
+  "frontend/src/components/CategorySection.tsx": "Category browsing section with three clickable cards (Nuts, Dry Fruits, Seeds) that navigate to filtered product listings.",
+  "frontend/src/components/ProductCard.tsx": "Reusable product card component with image, name, description, price, weight selector, wishlist toggle, and add to cart functionality.",
+  "frontend/src/components/FeaturedProducts.tsx": "Featured products section displaying the first 6 products from the catalog in a responsive grid layout.",
+  "frontend/src/components/BestSellers.tsx": "Best sellers section displaying the first 8 products in a 4-column grid layout.",
+  "frontend/src/components/CustomerReviews.tsx": "Customer reviews section displaying overall reviews with star ratings, or fallback to sample reviews if none exist.",
+  "frontend/src/components/WhyChooseUs.tsx": "Why Choose Us section with three benefit cards (Fresh Stock, Affordable Price, Fast Delivery) using generated icons.",
+  "frontend/src/components/WhatsAppOrderButton.tsx": "WhatsApp order button that generates a pre-filled message with cart details and opens WhatsApp Web using phone number 919345285169.",
+  "frontend/src/pages/HomePage.tsx": "Homepage component composing all main sections: hero banner, categories, featured products, best sellers, reviews, and why choose us.",
+  "frontend/src/pages/ProductsPage.tsx": "Products listing page with sidebar filters (category, price range, weight) and responsive product grid with search support.",
+  "frontend/src/pages/CartPage.tsx": "Shopping cart page displaying cart items with product details, quantities, total calculation, and checkout/WhatsApp order buttons.",
+  "frontend/src/pages/WishlistPage.tsx": "Wishlist page showing saved products with options to move items to cart or remove them from wishlist.",
+  "frontend/src/pages/CheckoutPage.tsx": "Checkout page with delivery information form, order summary, COD payment option, and WhatsApp ordering alternative.",
+  "frontend/src/index.css": "Global styles with OKLCH color system including custom gold and brown brand colors for light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with custom gold and brown brand colors, Inter font family, and design tokens."
+}

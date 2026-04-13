@@ -1,0 +1,226 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "E-commerce website for AR NUTS - a premium nuts, dry fruits & seeds brand targeting health-conscious families, gym-goers, and working professionals. Modern, clean design with product catalog, cart, checkout, and filters.",
+  "architectural_notes": [
+    "Mobile-first responsive design approach",
+    "Clean white background with premium gold & brown accent colors",
+    "Amazon/Flipkart-inspired layout with product-focused UI",
+    "Search bar and shopping cart icon in header",
+    "Footer with contact info, Instagram link, and policy pages"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-hero-banner-section-displaying-promotional-offer-text-healthy-snacks-premium-quality-with-a-visually-appealing-background-image",
+      "title": "Create a hero banner section displaying promotional offer text 'Healthy Snacks, Premium Quality' with a visually appealing background image",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-category-browsing-section-with-three-main-categories-nuts-dry-fruits-and-seeds-each-with-clickable-navigation",
+      "title": "Implement a category browsing section with three main categories: Nuts, Dry Fruits, and Seeds, each with clickable navigation",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-product-listing-page-displaying-all-products-with-product-image-name-price-weight-options-and-an-add-to-cart-button-for-each-product",
+      "title": "Create a product listing page displaying all products with product image, name, price, weight options, and an Add to Cart button for each product",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-product-filtering-functionality-by-price-range-weight-200g-250g-500g-and-category",
+      "title": "Implement product filtering functionality by price range, weight (200g, 250g, 500g), and category",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-shopping-cart-feature-that-allows-users-to-add-products-view-cart-contents-update-quantities-and-remove-items",
+      "title": "Build a shopping cart feature that allows users to add products, view cart contents, update quantities, and remove items",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-wishlist-feature-allowing-users-to-save-products-for-later-viewing",
+      "title": "Implement a wishlist feature allowing users to save products for later viewing",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-featured-products-section-on-the-homepage-showcasing-selected-premium-products-with-add-to-cart-buttons",
+      "title": "Create a Featured Products section on the homepage showcasing selected premium products with Add to Cart buttons",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-best-sellers-section-on-the-homepage-displaying-top-selling-products",
+      "title": "Build a Best Sellers section on the homepage displaying top-selling products",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-customer-reviews-section-on-the-homepage-displaying-user-testimonials-with-star-ratings",
+      "title": "Create a Customer Reviews section on the homepage displaying user testimonials with star ratings",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-why-choose-us-section-highlighting-fresh-stock-affordable-price-and-fast-delivery-as-key-brand-benefits",
+      "title": "Implement a Why Choose Us section highlighting Fresh Stock, Affordable Price, and Fast Delivery as key brand benefits",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-checkout-page-with-order-summary-customer-information-form-and-cash-on-delivery-cod-payment-option",
+      "title": "Create a checkout page with order summary, customer information form, and Cash on Delivery (COD) payment option",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-search-bar-in-the-header-allowing-users-to-search-for-products-by-name-or-category",
+      "title": "Add a search bar in the header allowing users to search for products by name or category",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-footer-section-with-contact-information-instagram-link-and-policy-links-privacy-policy-terms-of-service-return-policy",
+      "title": "Create a footer section with contact information, Instagram link, and policy links (Privacy Policy, Terms of Service, Return Policy)",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-whatsapp-order-button-that-opens-a-whatsapp-chat-with-a-pre-filled-message-containing-cart-details",
+      "title": "Add a WhatsApp order button that opens a WhatsApp chat with a pre-filled message containing cart details",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-modern-professional-design-theme-with-clean-white-background-premium-gold-and-brown-accent-colors-and-mobile-first-responsive-layout-throughout-the-entire-application",
+      "title": "Apply a modern, professional design theme with clean white background, premium gold and brown accent colors, and mobile-first responsive layout throughout the entire application",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-footer-contact-information-to-display-mobile-number-as-9345285169-and-email-as-arnutssnacks-gmail-com",
+      "title": "Update the footer contact information to display mobile number as '9345285169' and email as 'arnutssnacks@gmail.com'",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-whatsapp-order-button-to-use-phone-number-9345285169-for-whatsapp-integration",
+      "title": "Update the WhatsApp order button to use phone number '9345285169' for WhatsApp integration",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero banner with promotional offer display",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Category browsing (Nuts, Dry Fruits, Seeds)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Product listings with Add to Cart functionality",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Shopping cart and wishlist features",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Product filters (price, weight: 200g/250g/500g, category)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Checkout page with COD option",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Best Sellers and Featured Products sections",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Customer Reviews section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Why Choose Us section (Fresh Stock, Affordable Price, Fast Delivery)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "WhatsApp order button integration",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "Build a product data model in the backend with fields for name, description, price, category, weight options (200g, 250g, 500g), image URL, and stock status",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "AR NUTS",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

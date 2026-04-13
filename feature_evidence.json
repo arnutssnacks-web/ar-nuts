@@ -1,0 +1,41 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-footer-contact-information-to-display-mobile-number-as-9345285169-and-email-as-arnutssnacks-gmail-com",
+      "featureTitle": "Update the footer contact information to display mobile number as '9345285169' and email as 'arnutssnacks@gmail.com'",
+      "files": [
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-17"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-whatsapp-order-button-to-use-phone-number-9345285169-for-whatsapp-integration",
+      "featureTitle": "Update the WhatsApp order button to use phone number '9345285169' for WhatsApp integration",
+      "files": [
+        "frontend/src/components/WhatsAppOrderButton.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-18"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

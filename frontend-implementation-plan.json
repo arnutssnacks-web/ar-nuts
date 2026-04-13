@@ -1,0 +1,40 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update contact information with new mobile number and email",
+  "requirements": [
+    {
+      "id": "REQ-17",
+      "summary": "Update footer contact information to display mobile number '9345285169' and email 'arnutssnacks@gmail.com'",
+      "acceptanceCriteria": [
+        "Footer component displays '9345285169' as the contact phone number",
+        "Footer component displays 'arnutssnacks@gmail.com' as the contact email",
+        "Email link uses 'mailto:arnutssnacks@gmail.com'",
+        "Phone number is properly formatted and clickable if applicable"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Update the contact information section to display the new mobile number '9345285169' and email 'arnutssnacks@gmail.com'. Ensure the email link uses 'mailto:arnutssnacks@gmail.com' and the phone number is properly formatted with appropriate link (tel:) if currently implemented as clickable."
+        }
+      ]
+    },
+    {
+      "id": "REQ-18",
+      "summary": "Update WhatsApp order button to use phone number '9345285169' for WhatsApp integration",
+      "acceptanceCriteria": [
+        "WhatsApp button generates correct WhatsApp URL with phone number 9345285169",
+        "WhatsApp link opens chat with the updated number when clicked",
+        "Pre-filled cart message format remains intact"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/WhatsAppOrderButton.tsx",
+          "operation": "modify",
+          "description": "Update the WhatsApp URL generation to use phone number '9345285169' instead of the current number. Ensure the WhatsApp link format (wa.me/919345285169 or api.whatsapp.com) is correct and the pre-filled message with cart items and total amount continues to work as expected."
+        }
+      ]
+    }
+  ]
+}
